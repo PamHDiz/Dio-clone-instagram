@@ -44,7 +44,7 @@ body{
     flex-direction: column;
     width: 50%;
     height: 34rem;
-    margin-top: 200px;
+    margin-top: 380px;
 }
 
 .container{
@@ -59,9 +59,31 @@ body{
 }
 
 .container:nth-child(1){
-    min-height: 19rem;
+    min-height: 30rem;
+    width: 20rem;
 }
 
 .instagram-logo{
     height: 3rem;
+}
+
+.input-padrao{
+    display: block;
+	margin: 0 0 10px;
+	padding: 5px 40px;
+	width: 100%;
+    background-color: whitesmoke;
+    
+}
+
+.enviar {
+	width: 100%;
+    margin-top: 10px;
+	padding: 10px 0;
+	background: rgb(80, 149, 240);
+	color: white;
+	font-size: 14px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
 }
